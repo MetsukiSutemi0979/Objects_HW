@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b493e74-4250-405d-9490-b57ddeb87bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/domain/RadioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +41,10 @@
     "JUnit.RadioTest.shouldNotSetBelowMinStation.executor": "Run",
     "JUnit.RadioTest.shouldSetRadioStation.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.javaqamvn [clean,test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "flexible",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "Z:/HomeworksQA/Objects_HW/src/test/java",
     "last_opened_file_path": "Z:/HomeworksQA/Objects_HW",
@@ -55,6 +56,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.RadioTest">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Objects_HW" />
@@ -162,7 +168,8 @@
       <option name="presentableId" value="Default" />
       <updated>1738059490229</updated>
       <workItem from="1738059491231" duration="5178000" />
-      <workItem from="1738084634717" duration="744000" />
+      <workItem from="1738084634717" duration="2201000" />
+      <workItem from="1738095596318" duration="3058000" />
     </task>
     <servers />
   </component>

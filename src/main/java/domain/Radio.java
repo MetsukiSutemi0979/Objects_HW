@@ -1,58 +1,61 @@
 package domain;
 public class Radio {
-    private int radioStation;
-
-    public int getRadioStation() {
-        return radioStation;
-    }
-    public void setRadioStation(int newRadioStation) {
-        if (newRadioStation < 0){
-            newRadioStation = 9;
-
-        }
-        if (newRadioStation > 9){
-            newRadioStation = 0;
-        }
-        radioStation = newRadioStation;
-    }
-
-    public void nextRadioStation() {
-        if (radioStation < 9){
-            radioStation = radioStation + 1;
-        }
-    }
-
-    public void prevRadioStation() {
-        if (radioStation > 0){
-            radioStation = radioStation - 1;
-        }
-    }
-
+    private int currentStation;
     private int currentVolume;
+    private int stationCount;
+    private int maxStation;
+
+    public Radio() {
+        this(10);
+    }
+
+    public Radio(int stationCount) {
+
+        this.stationCount = stationCount;
+        this.maxStation = stationCount - 1;
+        this.currentStation = 0;
+        this.currentVolume = 50;
+    }
+
+    public void next() {
+        currentStation = (currentStation == maxStation) ? 0 : currentStation + 1;
+    }
+
+    public void prev() {
+        currentStation = (currentStation == 0) ? maxStation : currentStation - 1;
+    }
+
+    public void setCurrentStation(int station) {
+        if (station >= 0 && station <= maxStation) {
+            currentStation = station;
+        }
+    }
+
+    public void setCurrentVolume(int currentVolume) {
+        this.currentVolume = currentVolume;
+    }
+
+    public void increaseVolume() {
+        if (currentVolume < 100) {
+            currentVolume++;
+        }
+    }
+
+    public void decreaseVolume() {
+        if (currentVolume > 0) {
+            currentVolume--;
+        }
+    }
+
+    public int getCurrentStation() {
+        return currentStation;
+    }
 
     public int getCurrentVolume() {
         return currentVolume;
     }
 
-    public void setCurrentVolume(int newCurrentVolume) {
-        if (newCurrentVolume < 0){
-            newCurrentVolume = 0;
-        }
-        if (newCurrentVolume > 100){
-            newCurrentVolume = 100;
-        }
-        currentVolume = newCurrentVolume;
-    }
-
-    public void increaseVolume(){
-        if (currentVolume < 100){
-            currentVolume = currentVolume + 1;
-        }
-    }
-
-    public void decreaseVolume(){
-        if (currentVolume > 0){
-            currentVolume = currentVolume - 1;
-        }
+    public int getStationCount() {
+        return stationCount;
     }
 }
