@@ -33,29 +33,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.RadioTest.executor": "Run",
-    "JUnit.RadioTest.shouldNotSetAboveMax.executor": "Run",
-    "JUnit.RadioTest.shouldNotSetAboveMaxStation.executor": "Run",
-    "JUnit.RadioTest.shouldNotSetBelowMinStation.executor": "Run",
-    "JUnit.RadioTest.shouldSetRadioStation.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.javaqamvn [clean,test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "flexible",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "Z:/HomeworksQA/Objects_HW/src/test/java",
-    "last_opened_file_path": "Z:/HomeworksQA/Objects_HW",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.RadioTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RadioTest.shouldNotSetAboveMax.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RadioTest.shouldNotSetAboveMaxStation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RadioTest.shouldNotSetBelowMinStation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RadioTest.shouldSetRadioStation.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.javaqamvn [clean,test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;flexible&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;Z:/HomeworksQA/Objects_HW/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Z:/HomeworksQA/Objects_HW&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean test" />
@@ -170,6 +170,7 @@
       <workItem from="1738059491231" duration="5178000" />
       <workItem from="1738084634717" duration="2201000" />
       <workItem from="1738095596318" duration="3058000" />
+      <workItem from="1738176562903" duration="1450000" />
     </task>
     <servers />
   </component>
