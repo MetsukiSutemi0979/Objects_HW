@@ -15,14 +15,18 @@ public class Radio {
     }
 
     public void nextRadioStation() {
-        if (radioStation < 9){
+        if (radioStation <= 9){
             radioStation = radioStation + 1;
+        } else {
+            radioStation = 0;
         }
     }
 
     public void prevRadioStation() {
         if (radioStation > 0){
             radioStation = radioStation - 1;
+        } else {
+            radioStation = 9;
         }
     }
 
